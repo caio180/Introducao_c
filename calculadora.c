@@ -7,25 +7,25 @@ int main(){
     printf("Digite o primeiro número: ");
     scanf("%d", &num1);
     
+    printf("Digite a operação desejada: ");
+    scanf(" %c", &operador);
+   
     
     printf("Digite o segundo número: ");
     scanf("%d", &num2);
     
-    printf("Digite a operação desejada: ");
-    scanf("%c", &operador);
-   
     switch (operador){
     case '+':
-        printf("soma");
+        printf("Resultado: %d\n", num1 + num2);
         break;
     case '-':
-        printf("sub");
+        printf("Resultado: %d\n", num1 - num2);
         break;
     case '*':
-        printf("Mul");
+        printf("Resultado: %d\n", num1 * num2);
         break;
     case '/':
-        printf("div");
+        printf("Resultado: %d\n", num1 + num2);
         break;
 
     default:
