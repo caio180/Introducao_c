@@ -25,7 +25,7 @@ int main(){
         printf("Resultado: %d\n", num1 * num2);
         break;
     case '/':
-        printf("Resultado: %d\n", num1 + num2);
+        printf("Resultado: %d\n", num1 / num2);
         break;
 
     default:
